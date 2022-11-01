@@ -10,7 +10,7 @@ namespace Teoria10
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ListViewDemo();
         }
 
         protected override void OnStart()

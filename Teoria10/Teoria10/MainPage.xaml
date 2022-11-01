@@ -16,13 +16,13 @@
                 Maximum="360"
                 VerticalOptions="CenterAndExpand"
             ></Slider>
-        <Label BindingContext="{x:Reference slider1}"
-               Text="{Binding Value}"
+        <Entry BindingContext="{x:Reference slider1}"
+               Text="{Binding Value, Mode=OneWayToSource}"
                FontAttributes="Bold"
                FontSize="Large"
-               HorizontalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"
-               ></Label>
+               ></Entry>
     </StackLayout>
 
 </ContentPage>
